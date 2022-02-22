@@ -1,0 +1,44 @@
+body {
+   background-image: url(../images/cat.jpg);
+    background-size: cover;
+    color: white;
+}
+
+/* my comment */
+p {
+    text-align: center;
+    font-size: 200%;
+    line-height: 300%;
+}
+
+section  {
+/*    background: pink;*/
+    padding: 3em;
+    margin: 3em;
+}
+
+#first {
+/*    background: red;*/
+}
+
+section.second {
+    background: orange;
+}
+
+section.second p {
+    color: blue;
+}
+
+.second p.secondpara {
+    color: aquamarine;
+}
+
+a {
+    background: #000;
+    color: #fff;
+}
+
+a:hover {
+    background: #fff;
+    color: #000;
+}
